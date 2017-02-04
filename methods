@@ -1,0 +1,12 @@
+public class MyClass {
+
+    static int num(int val1, int val2, int val3) {
+        return val1 + val2 - val3;
+    }
+
+    public static void main(String[ ] args) {
+        int x = num(2, 5, 3);
+        System.out.println(x);
+    }
+}
+//Outputs 4
